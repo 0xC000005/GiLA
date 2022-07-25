@@ -1,6 +1,5 @@
-#
-#	!/bin/bash
-#
+#!/bin/bash
+
 
 FILEARG=${1}
 OUTPUTARG=${2}
