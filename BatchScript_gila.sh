@@ -22,9 +22,9 @@ module load python/3.6.3
 module load maven
 
 
-INPUT=$1
-OUTPUT=$2
-WORKERS=$3
+INPUT=input/Amazon0302.json
+OUTPUT=output/
+WORKERS=5
 TEMPLOCALFOLDER=gilaTemp/ ##PLEASE GIVE A HDFS LOCATION IN WHICH SAVE TEMP FILES
 
 echo cleaning temp folders
